@@ -1,0 +1,2784 @@
+{
+    "ModVersion": "0.3.18",
+    "Version": 1,
+    "RootSettings": {
+        "Type": 0
+    },
+    "LocalTransform": {
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    },
+    "Modules": [
+        {
+            "ModuleId": "reezonate.empty",
+            "Version": 1,
+            "Config": {
+                "Enabled": true,
+                "Name": "Saber",
+                "LocalTransform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                "ForceColorOverride": false,
+                "ColorOverride": {
+                    "type": 0,
+                    "hue": 0.0,
+                    "saturation": 1.0,
+                    "value": 1.0,
+                    "hueShiftPerSecond": 0.0,
+                    "fakeGlowMultiplier": 1.0,
+                    "colorSource": 0
+                }
+            },
+            "Children": [
+                {
+                    "ModuleId": "reezonate.blur-saber",
+                    "Version": 2,
+                    "Config": {
+                        "MeshSettings": {
+                            "zOffsetFrom": -0.0,
+                            "zOffsetTo": 1.0,
+                            "radius": 0.01500000525265932,
+                            "stretchBias": 4.0,
+                            "saberProfile": {
+                                "interpolationType": 1,
+                                "controlPoints": [
+                                    {
+                                        "time": 0.0,
+                                        "value": 0.01563115604221821
+                                    },
+                                    {
+                                        "time": 0.01716691255569458,
+                                        "value": 0.23333075642585754
+                                    },
+                                    {
+                                        "time": 0.026843637228012085,
+                                        "value": 0.445060670375824
+                                    },
+                                    {
+                                        "time": 0.060469433665275574,
+                                        "value": 0.3725469708442688
+                                    },
+                                    {
+                                        "time": 0.21631279587745667,
+                                        "value": 0.26172852516174316
+                                    },
+                                    {
+                                        "time": 0.41062411665916443,
+                                        "value": 0.1882506161928177
+                                    },
+                                    {
+                                        "time": 0.9854463934898376,
+                                        "value": 0.1551249474287033
+                                    },
+                                    {
+                                        "time": 1.0,
+                                        "value": 0.0352415107190609
+                                    }
+                                ]
+                            },
+                            "startCap": true,
+                            "endCap": true,
+                            "verticalResolution": 20,
+                            "horizontalResolution": 10
+                        },
+                        "MaterialSettings": {
+                            "blurFrames": 0.0,
+                            "blurSensitivity": 0.0,
+                            "reflectionColor": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            },
+                            "envLightColor": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            },
+                            "fresnelPower": 5.0,
+                            "metallic": 0.0,
+                            "roughness": 0.0,
+                            "envLightIntensity": 1.0,
+                            "reflectionIntensity": 1.0,
+                            "normalMapIntensity": 1.0,
+                            "sceneReflections": false,
+                            "sceneLights": false,
+                            "renderQueue": 3002,
+                            "cullMode": 0,
+                            "depthWrite": true,
+                            "maskSettings": {
+                                "bladeMaskResolution": 256,
+                                "driversMaskResolution": 32,
+                                "handleMask": {
+                                    "interpolationType": 0,
+                                    "controlPoints": [
+                                        {
+                                            "time": 0.0,
+                                            "value": 0.0
+                                        }
+                                    ]
+                                },
+                                "bladeMappings": {
+                                    "colorOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": {
+                                                    "r": 0.3421463966369629,
+                                                    "g": 0.04512214660644531,
+                                                    "b": 1.0,
+                                                    "a": 0.421907901763916
+                                                }
+                                            },
+                                            {
+                                                "time": 0.9136239290237427,
+                                                "value": {
+                                                    "r": 0.04512214660644531,
+                                                    "g": 1.0,
+                                                    "b": 0.2949828505516052,
+                                                    "a": 0.21689236164093018
+                                                }
+                                            },
+                                            {
+                                                "time": 1.0,
+                                                "value": {
+                                                    "r": 0.11676329374313354,
+                                                    "g": 1.0,
+                                                    "b": 0.41577810049057007,
+                                                    "a": 1.0
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "alphaOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            },
+                                            {
+                                                "time": 0.4816354811191559,
+                                                "value": 0.4983063340187073
+                                            },
+                                            {
+                                                "time": 0.7634464502334595,
+                                                "value": 0.841201901435852
+                                            },
+                                            {
+                                                "time": 1.0,
+                                                "value": 0.9370629787445068
+                                            }
+                                        ]
+                                    },
+                                    "scaleOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "valueFrom": 0.0,
+                                    "valueTo": 1.0
+                                },
+                                "driversSampleMode": 0,
+                                "viewingAngleMappings": {
+                                    "colorOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": {
+                                                    "r": 1.0,
+                                                    "g": 1.0,
+                                                    "b": 1.0,
+                                                    "a": 1.0
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "alphaOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "scaleOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "valueFrom": 0.0,
+                                    "valueTo": 1.0
+                                },
+                                "surfaceAngleMappings": {
+                                    "colorOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": {
+                                                    "r": 1.0,
+                                                    "g": 1.0,
+                                                    "b": 1.0,
+                                                    "a": 1.0
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "alphaOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 0.5615233778953552
+                                            },
+                                            {
+                                                "time": 0.5005075335502625,
+                                                "value": 0.8582272529602051
+                                            },
+                                            {
+                                                "time": 1.0,
+                                                "value": 0.6066814064979553
+                                            }
+                                        ]
+                                    },
+                                    "scaleOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "valueFrom": 0.0,
+                                    "valueTo": 1.0
+                                },
+                                "drivers": [
+                                    {
+                                        "valueType": 4,
+                                        "increaseResistance": 3.0,
+                                        "decreaseResistance": 3.0,
+                                        "mappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 0.6996104717254639
+                                                    },
+                                                    {
+                                                        "time": 1.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 2.0
+                                        }
+                                    },
+                                    {
+                                        "valueType": 0,
+                                        "increaseResistance": 0.0,
+                                        "decreaseResistance": 0.0,
+                                        "mappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        }
+                                    },
+                                    {
+                                        "valueType": 0,
+                                        "increaseResistance": 0.0,
+                                        "decreaseResistance": 0.0,
+                                        "mappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        }
+                                    },
+                                    {
+                                        "valueType": 0,
+                                        "increaseResistance": 0.0,
+                                        "decreaseResistance": 0.0,
+                                        "mappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "TexturesSettings": {
+                            "mainTextureId": "",
+                            "normalMapTextureId": "",
+                            "glowMapTextureId": "",
+                            "colorMapTextureId": "",
+                            "metallicMapTextureId": "",
+                            "roughnessMapTextureId": "",
+                            "opacityTextureId": "",
+                            "tilingLayout": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "uvScroll": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "Enabled": true,
+                        "Name": "Blade",
+                        "LocalTransform": {
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        "ForceColorOverride": false,
+                        "ColorOverride": {
+                            "type": 0,
+                            "hue": 0.0,
+                            "saturation": 1.0,
+                            "value": 1.0,
+                            "hueShiftPerSecond": 0.0,
+                            "fakeGlowMultiplier": 1.0,
+                            "colorSource": 0
+                        }
+                    },
+                    "Children": [
+                        {
+                            "ModuleId": "reezonate.simple-trail",
+                            "Version": 1,
+                            "Config": {
+                                "MeshSettings": {
+                                    "TrailLength": 0.25,
+                                    "HorizontalResolution": 4,
+                                    "VerticalResolution": 60
+                                },
+                                "MaterialSettings": {
+                                    "trailType": 0,
+                                    "materialType": 0,
+                                    "mappingType": 0,
+                                    "offset": 1.0,
+                                    "width": 0.019999999552965164,
+                                    "distortionMultiplier": 1.0,
+                                    "generalSettings": {
+                                        "customTextureId": "",
+                                        "opacityTextureId": "",
+                                        "animationLayout": {
+                                            "totalFrames": 1,
+                                            "framesPerRow": 1,
+                                            "framesPerColumn": 1,
+                                            "frameDuration": 1.0
+                                        },
+                                        "tilingLayout": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 0.0,
+                                            "w": 0.0
+                                        },
+                                        "uvScroll": {
+                                            "x": 0.0,
+                                            "y": 0.0
+                                        },
+                                        "blendingMode": 0,
+                                        "alwaysOnTop": false,
+                                        "renderQueue": 3000
+                                    },
+                                    "maskSettings": {
+                                        "mainMaskResolution": 128,
+                                        "driversMaskResolution": 32,
+                                        "lengthMappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 0.11676329374313354,
+                                                            "g": 1.0,
+                                                            "b": 0.41577810049057007,
+                                                            "a": 1.0
+                                                        }
+                                                    },
+                                                    {
+                                                        "time": 0.5359755754470825,
+                                                        "value": {
+                                                            "r": 0.3421463966369629,
+                                                            "g": 0.04512214660644531,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        },
+                                        "widthMappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        },
+                                        "driversSampleMode": 0,
+                                        "viewingAngleMappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        },
+                                        "surfaceAngleMappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        },
+                                        "drivers": [
+                                            {
+                                                "valueType": 4,
+                                                "increaseResistance": 5.0,
+                                                "decreaseResistance": 5.0,
+                                                "mappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 0.0
+                                                            },
+                                                            {
+                                                                "time": 0.17292651534080505,
+                                                                "value": 0.0
+                                                            },
+                                                            {
+                                                                "time": 1.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.17555174231529236,
+                                                                "value": 0.0
+                                                            },
+                                                            {
+                                                                "time": 1.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 3.0
+                                                }
+                                            },
+                                            {
+                                                "valueType": 0,
+                                                "increaseResistance": 0.0,
+                                                "decreaseResistance": 0.0,
+                                                "mappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                }
+                                            },
+                                            {
+                                                "valueType": 0,
+                                                "increaseResistance": 0.0,
+                                                "decreaseResistance": 0.0,
+                                                "mappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                }
+                                            },
+                                            {
+                                                "valueType": 0,
+                                                "increaseResistance": 0.0,
+                                                "decreaseResistance": 0.0,
+                                                "mappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "Enabled": true,
+                                "Name": "Tip",
+                                "LocalTransform": {
+                                    "Position": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "Rotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "Scale": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                    }
+                                },
+                                "ForceColorOverride": false,
+                                "ColorOverride": {
+                                    "type": 0,
+                                    "hue": 0.0,
+                                    "saturation": 1.0,
+                                    "value": 1.0,
+                                    "hueShiftPerSecond": 0.0,
+                                    "fakeGlowMultiplier": 1.0,
+                                    "colorSource": 0
+                                }
+                            },
+                            "Children": [
+                                {
+                                    "ModuleId": "reezonate.simple-trail",
+                                    "Version": 1,
+                                    "Config": {
+                                        "MeshSettings": {
+                                            "TrailLength": 0.1599999964237213,
+                                            "HorizontalResolution": 4,
+                                            "VerticalResolution": 60
+                                        },
+                                        "MaterialSettings": {
+                                            "trailType": 1,
+                                            "materialType": 0,
+                                            "mappingType": 0,
+                                            "offset": 1.0,
+                                            "width": 1.0,
+                                            "distortionMultiplier": 1.0,
+                                            "generalSettings": {
+                                                "customTextureId": "",
+                                                "opacityTextureId": "",
+                                                "animationLayout": {
+                                                    "totalFrames": 1,
+                                                    "framesPerRow": 1,
+                                                    "framesPerColumn": 1,
+                                                    "frameDuration": 1.0
+                                                },
+                                                "tilingLayout": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 0.0,
+                                                    "w": 0.0
+                                                },
+                                                "uvScroll": {
+                                                    "x": 0.0,
+                                                    "y": 0.0
+                                                },
+                                                "blendingMode": 0,
+                                                "alwaysOnTop": false,
+                                                "renderQueue": 3000
+                                            },
+                                            "maskSettings": {
+                                                "mainMaskResolution": 128,
+                                                "driversMaskResolution": 32,
+                                                "lengthMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 0.11676329374313354,
+                                                                    "g": 1.0,
+                                                                    "b": 0.41577810049057007,
+                                                                    "a": 1.0
+                                                                }
+                                                            },
+                                                            {
+                                                                "time": 0.5359755754470825,
+                                                                "value": {
+                                                                    "r": 0.3421463966369629,
+                                                                    "g": 0.04512214660644531,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 0.41889476776123047
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "widthMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "driversSampleMode": 0,
+                                                "viewingAngleMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "surfaceAngleMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "drivers": [
+                                                    {
+                                                        "valueType": 4,
+                                                        "increaseResistance": 3.0,
+                                                        "decreaseResistance": 3.0,
+                                                        "mappings": {
+                                                            "colorOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": {
+                                                                            "r": 1.0,
+                                                                            "g": 1.0,
+                                                                            "b": 1.0,
+                                                                            "a": 1.0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "alphaOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 0.0
+                                                                    },
+                                                                    {
+                                                                        "time": 0.256228506565094,
+                                                                        "value": 0.0
+                                                                    },
+                                                                    {
+                                                                        "time": 1.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "scaleOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 0.0
+                                                                    },
+                                                                    {
+                                                                        "time": 0.25122687220573425,
+                                                                        "value": 0.0
+                                                                    },
+                                                                    {
+                                                                        "time": 1.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "valueFrom": 0.0,
+                                                            "valueTo": 4.0
+                                                        }
+                                                    },
+                                                    {
+                                                        "valueType": 0,
+                                                        "increaseResistance": 0.0,
+                                                        "decreaseResistance": 0.0,
+                                                        "mappings": {
+                                                            "colorOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": {
+                                                                            "r": 1.0,
+                                                                            "g": 1.0,
+                                                                            "b": 1.0,
+                                                                            "a": 1.0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "alphaOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "scaleOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "valueFrom": 0.0,
+                                                            "valueTo": 1.0
+                                                        }
+                                                    },
+                                                    {
+                                                        "valueType": 0,
+                                                        "increaseResistance": 0.0,
+                                                        "decreaseResistance": 0.0,
+                                                        "mappings": {
+                                                            "colorOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": {
+                                                                            "r": 1.0,
+                                                                            "g": 1.0,
+                                                                            "b": 1.0,
+                                                                            "a": 1.0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "alphaOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "scaleOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "valueFrom": 0.0,
+                                                            "valueTo": 1.0
+                                                        }
+                                                    },
+                                                    {
+                                                        "valueType": 0,
+                                                        "increaseResistance": 0.0,
+                                                        "decreaseResistance": 0.0,
+                                                        "mappings": {
+                                                            "colorOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": {
+                                                                            "r": 1.0,
+                                                                            "g": 1.0,
+                                                                            "b": 1.0,
+                                                                            "a": 1.0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "alphaOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "scaleOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "valueFrom": 0.0,
+                                                            "valueTo": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "Enabled": true,
+                                        "Name": "Main",
+                                        "LocalTransform": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Rotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Scale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        },
+                                        "ForceColorOverride": false,
+                                        "ColorOverride": {
+                                            "type": 0,
+                                            "hue": 0.0,
+                                            "saturation": 1.0,
+                                            "value": 1.0,
+                                            "hueShiftPerSecond": 0.0,
+                                            "fakeGlowMultiplier": 1.0,
+                                            "colorSource": 0
+                                        }
+                                    },
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ModuleId": "reezonate.empty",
+            "Version": 1,
+            "Config": {
+                "Enabled": true,
+                "Name": "Hilt",
+                "LocalTransform": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                "ForceColorOverride": false,
+                "ColorOverride": {
+                    "type": 0,
+                    "hue": 0.0,
+                    "saturation": 1.0,
+                    "value": 1.0,
+                    "hueShiftPerSecond": 0.0,
+                    "fakeGlowMultiplier": 1.0,
+                    "colorSource": 0
+                }
+            },
+            "Children": [
+                {
+                    "ModuleId": "reezonate.blur-saber",
+                    "Version": 2,
+                    "Config": {
+                        "MeshSettings": {
+                            "zOffsetFrom": -0.17000000178813934,
+                            "zOffsetTo": 1.0,
+                            "radius": 0.009000004269182682,
+                            "stretchBias": 4.0,
+                            "saberProfile": {
+                                "interpolationType": 1,
+                                "controlPoints": [
+                                    {
+                                        "time": 0.0,
+                                        "value": 0.0
+                                    },
+                                    {
+                                        "time": 0.05010893940925598,
+                                        "value": 0.43134650588035583
+                                    },
+                                    {
+                                        "time": 0.08338057994842529,
+                                        "value": 0.9177402257919312
+                                    },
+                                    {
+                                        "time": 0.4913732409477234,
+                                        "value": 0.8089684247970581
+                                    },
+                                    {
+                                        "time": 0.8716075420379639,
+                                        "value": 1.0
+                                    },
+                                    {
+                                        "time": 0.8973249197006226,
+                                        "value": 0.7219376564025879
+                                    },
+                                    {
+                                        "time": 1.0,
+                                        "value": 0.0
+                                    }
+                                ]
+                            },
+                            "startCap": true,
+                            "endCap": true,
+                            "verticalResolution": 20,
+                            "horizontalResolution": 10
+                        },
+                        "MaterialSettings": {
+                            "blurFrames": 2.0,
+                            "blurSensitivity": 1.0,
+                            "reflectionColor": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            },
+                            "envLightColor": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            },
+                            "fresnelPower": 5.0,
+                            "metallic": 0.0,
+                            "roughness": 0.0,
+                            "envLightIntensity": 1.0,
+                            "reflectionIntensity": 1.0,
+                            "normalMapIntensity": 1.0,
+                            "sceneReflections": false,
+                            "sceneLights": false,
+                            "renderQueue": 3002,
+                            "cullMode": 0,
+                            "depthWrite": true,
+                            "maskSettings": {
+                                "bladeMaskResolution": 256,
+                                "driversMaskResolution": 32,
+                                "handleMask": {
+                                    "interpolationType": 0,
+                                    "controlPoints": [
+                                        {
+                                            "time": 0.0,
+                                            "value": 0.0
+                                        }
+                                    ]
+                                },
+                                "bladeMappings": {
+                                    "colorOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": {
+                                                    "r": 0.3421463966369629,
+                                                    "g": 0.04512214660644531,
+                                                    "b": 1.0,
+                                                    "a": 0.421907901763916
+                                                }
+                                            },
+                                            {
+                                                "time": 1.0,
+                                                "value": {
+                                                    "r": 0.04512214660644531,
+                                                    "g": 1.0,
+                                                    "b": 0.2949828505516052,
+                                                    "a": 0.21689236164093018
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "alphaOverValue": {
+                                        "interpolationType": 3,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            },
+                                            {
+                                                "time": 0.1601395308971405,
+                                                "value": 0.0
+                                            },
+                                            {
+                                                "time": 1.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "scaleOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "valueFrom": 0.0,
+                                    "valueTo": 1.0
+                                },
+                                "driversSampleMode": 0,
+                                "viewingAngleMappings": {
+                                    "colorOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": {
+                                                    "r": 1.0,
+                                                    "g": 1.0,
+                                                    "b": 1.0,
+                                                    "a": 1.0
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "alphaOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "scaleOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "valueFrom": 0.0,
+                                    "valueTo": 1.0
+                                },
+                                "surfaceAngleMappings": {
+                                    "colorOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": {
+                                                    "r": 1.0,
+                                                    "g": 1.0,
+                                                    "b": 1.0,
+                                                    "a": 1.0
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "alphaOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 0.5615233778953552
+                                            },
+                                            {
+                                                "time": 0.5005075335502625,
+                                                "value": 0.8582272529602051
+                                            },
+                                            {
+                                                "time": 1.0,
+                                                "value": 0.6066814064979553
+                                            }
+                                        ]
+                                    },
+                                    "scaleOverValue": {
+                                        "interpolationType": 0,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 1.0
+                                            }
+                                        ]
+                                    },
+                                    "valueFrom": 0.0,
+                                    "valueTo": 1.0
+                                },
+                                "drivers": [
+                                    {
+                                        "valueType": 0,
+                                        "increaseResistance": 0.0,
+                                        "decreaseResistance": 0.0,
+                                        "mappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        }
+                                    },
+                                    {
+                                        "valueType": 0,
+                                        "increaseResistance": 0.0,
+                                        "decreaseResistance": 0.0,
+                                        "mappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        }
+                                    },
+                                    {
+                                        "valueType": 0,
+                                        "increaseResistance": 0.0,
+                                        "decreaseResistance": 0.0,
+                                        "mappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        }
+                                    },
+                                    {
+                                        "valueType": 0,
+                                        "increaseResistance": 0.0,
+                                        "decreaseResistance": 0.0,
+                                        "mappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "TexturesSettings": {
+                            "mainTextureId": "",
+                            "normalMapTextureId": "",
+                            "glowMapTextureId": "",
+                            "colorMapTextureId": "",
+                            "metallicMapTextureId": "",
+                            "roughnessMapTextureId": "",
+                            "opacityTextureId": "",
+                            "tilingLayout": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "uvScroll": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "Enabled": true,
+                        "Name": "Hilt",
+                        "LocalTransform": {
+                            "Position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": -0.20000000298023224
+                            },
+                            "Rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 0.1599999964237213
+                            }
+                        },
+                        "ForceColorOverride": false,
+                        "ColorOverride": {
+                            "type": 0,
+                            "hue": 0.0,
+                            "saturation": 1.0,
+                            "value": 1.0,
+                            "hueShiftPerSecond": 0.0,
+                            "fakeGlowMultiplier": 1.0,
+                            "colorSource": 0
+                        }
+                    },
+                    "Children": [
+                        {
+                            "ModuleId": "reezonate.blur-saber",
+                            "Version": 2,
+                            "Config": {
+                                "MeshSettings": {
+                                    "zOffsetFrom": -0.17000000178813934,
+                                    "zOffsetTo": 1.0,
+                                    "radius": 0.011500009335577488,
+                                    "stretchBias": 4.0,
+                                    "saberProfile": {
+                                        "interpolationType": 1,
+                                        "controlPoints": [
+                                            {
+                                                "time": 0.0,
+                                                "value": 0.4362800121307373
+                                            },
+                                            {
+                                                "time": 0.11029210686683655,
+                                                "value": 0.641562819480896
+                                            },
+                                            {
+                                                "time": 0.19604995846748352,
+                                                "value": 0.6819391250610352
+                                            },
+                                            {
+                                                "time": 1.0,
+                                                "value": 0.13921844959259033
+                                            }
+                                        ]
+                                    },
+                                    "startCap": true,
+                                    "endCap": true,
+                                    "verticalResolution": 20,
+                                    "horizontalResolution": 10
+                                },
+                                "MaterialSettings": {
+                                    "blurFrames": 2.0,
+                                    "blurSensitivity": 1.0,
+                                    "reflectionColor": {
+                                        "r": 1.0,
+                                        "g": 1.0,
+                                        "b": 1.0,
+                                        "a": 1.0
+                                    },
+                                    "envLightColor": {
+                                        "r": 1.0,
+                                        "g": 1.0,
+                                        "b": 1.0,
+                                        "a": 1.0
+                                    },
+                                    "fresnelPower": 5.0,
+                                    "metallic": 0.0,
+                                    "roughness": 0.0,
+                                    "envLightIntensity": 1.0,
+                                    "reflectionIntensity": 1.0,
+                                    "normalMapIntensity": 1.0,
+                                    "sceneReflections": false,
+                                    "sceneLights": false,
+                                    "renderQueue": 3002,
+                                    "cullMode": 0,
+                                    "depthWrite": true,
+                                    "maskSettings": {
+                                        "bladeMaskResolution": 256,
+                                        "driversMaskResolution": 32,
+                                        "handleMask": {
+                                            "interpolationType": 0,
+                                            "controlPoints": [
+                                                {
+                                                    "time": 0.0,
+                                                    "value": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "bladeMappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 0.3421463966369629,
+                                                            "g": 0.04512214660644531,
+                                                            "b": 1.0,
+                                                            "a": 0.2693430483341217
+                                                        }
+                                                    },
+                                                    {
+                                                        "time": 1.0,
+                                                        "value": {
+                                                            "r": 0.04512214660644531,
+                                                            "g": 1.0,
+                                                            "b": 0.2949828505516052,
+                                                            "a": 0.10288293659687042
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        },
+                                        "driversSampleMode": 0,
+                                        "viewingAngleMappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        },
+                                        "surfaceAngleMappings": {
+                                            "colorOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": {
+                                                            "r": 1.0,
+                                                            "g": 1.0,
+                                                            "b": 1.0,
+                                                            "a": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "alphaOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    },
+                                                    {
+                                                        "time": 0.497843474149704,
+                                                        "value": 0.48985788226127625
+                                                    },
+                                                    {
+                                                        "time": 1.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "scaleOverValue": {
+                                                "interpolationType": 0,
+                                                "controlPoints": [
+                                                    {
+                                                        "time": 0.0,
+                                                        "value": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "valueFrom": 0.0,
+                                            "valueTo": 1.0
+                                        },
+                                        "drivers": [
+                                            {
+                                                "valueType": 0,
+                                                "increaseResistance": 0.0,
+                                                "decreaseResistance": 0.0,
+                                                "mappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                }
+                                            },
+                                            {
+                                                "valueType": 0,
+                                                "increaseResistance": 0.0,
+                                                "decreaseResistance": 0.0,
+                                                "mappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                }
+                                            },
+                                            {
+                                                "valueType": 0,
+                                                "increaseResistance": 0.0,
+                                                "decreaseResistance": 0.0,
+                                                "mappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                }
+                                            },
+                                            {
+                                                "valueType": 0,
+                                                "increaseResistance": 0.0,
+                                                "decreaseResistance": 0.0,
+                                                "mappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "TexturesSettings": {
+                                    "mainTextureId": "",
+                                    "normalMapTextureId": "",
+                                    "glowMapTextureId": "",
+                                    "colorMapTextureId": "",
+                                    "metallicMapTextureId": "",
+                                    "roughnessMapTextureId": "",
+                                    "opacityTextureId": "",
+                                    "tilingLayout": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 0.0,
+                                        "w": 0.0
+                                    },
+                                    "uvScroll": {
+                                        "x": 0.0,
+                                        "y": 0.0
+                                    }
+                                },
+                                "Enabled": true,
+                                "Name": "gem",
+                                "LocalTransform": {
+                                    "Position": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 1.2000000476837158
+                                    },
+                                    "Rotation": {
+                                        "x": -0.0,
+                                        "y": 180.0,
+                                        "z": 0.0
+                                    },
+                                    "Scale": {
+                                        "x": 2.0,
+                                        "y": 2.0,
+                                        "z": 0.15000000596046448
+                                    }
+                                },
+                                "ForceColorOverride": false,
+                                "ColorOverride": {
+                                    "type": 0,
+                                    "hue": 0.0,
+                                    "saturation": 1.0,
+                                    "value": 1.0,
+                                    "hueShiftPerSecond": 0.0,
+                                    "fakeGlowMultiplier": 1.0,
+                                    "colorSource": 0
+                                }
+                            },
+                            "Children": [
+                                {
+                                    "ModuleId": "reezonate.sparks-vfx",
+                                    "Version": 1,
+                                    "Config": {
+                                        "MeshSettings": {
+                                            "ParticlesCount": 10,
+                                            "HorizontalResolution": 1,
+                                            "VerticalResolution": 10
+                                        },
+                                        "TrailSettings": {
+                                            "Length": 0.20000000298023224
+                                        },
+                                        "MaterialSettings": {
+                                            "materialType": 0,
+                                            "trailWidth": 0.004999999888241291,
+                                            "distortionMultiplier": 1.0,
+                                            "generalSettings": {
+                                                "customTextureId": "",
+                                                "opacityTextureId": "",
+                                                "animationLayout": {
+                                                    "totalFrames": 1,
+                                                    "framesPerRow": 1,
+                                                    "framesPerColumn": 1,
+                                                    "frameDuration": 1.0
+                                                },
+                                                "tilingLayout": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 0.0,
+                                                    "w": 0.0
+                                                },
+                                                "uvScroll": {
+                                                    "x": 0.0,
+                                                    "y": 0.0
+                                                },
+                                                "blendingMode": 0,
+                                                "alwaysOnTop": false,
+                                                "renderQueue": 3000
+                                            },
+                                            "textureSettings": {
+                                                "layers": [
+                                                    {
+                                                        "centerOffset": {
+                                                            "x": 0.0,
+                                                            "y": -0.800000011920929
+                                                        },
+                                                        "scale": {
+                                                            "x": 1.0,
+                                                            "y": 1.0
+                                                        },
+                                                        "power": {
+                                                            "x": 1.0,
+                                                            "y": 1.0
+                                                        },
+                                                        "falloff": 1.0,
+                                                        "intensity": 0.30000001192092896
+                                                    },
+                                                    {
+                                                        "centerOffset": {
+                                                            "x": 0.0,
+                                                            "y": -0.800000011920929
+                                                        },
+                                                        "scale": {
+                                                            "x": 0.20000000298023224,
+                                                            "y": 1.0
+                                                        },
+                                                        "power": {
+                                                            "x": 1.0,
+                                                            "y": 1.0
+                                                        },
+                                                        "falloff": 1.0,
+                                                        "intensity": 1.0
+                                                    }
+                                                ]
+                                            },
+                                            "maskSettings": {
+                                                "mainMaskResolution": 32,
+                                                "driversMaskResolution": 32,
+                                                "lengthMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 0.3421463966369629,
+                                                                    "g": 0.04512214660644531,
+                                                                    "b": 1.0,
+                                                                    "a": 0.421907901763916
+                                                                }
+                                                            },
+                                                            {
+                                                                "time": 0.9136239290237427,
+                                                                "value": {
+                                                                    "r": 0.04512214660644531,
+                                                                    "g": 1.0,
+                                                                    "b": 0.2949828505516052,
+                                                                    "a": 0.21689236164093018
+                                                                }
+                                                            },
+                                                            {
+                                                                "time": 1.0,
+                                                                "value": {
+                                                                    "r": 0.11676329374313354,
+                                                                    "g": 1.0,
+                                                                    "b": 0.41577810049057007,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "lifetimeMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 0.8136003017425537
+                                                            },
+                                                            {
+                                                                "time": 0.7904979586601257,
+                                                                "value": 0.0
+                                                            },
+                                                            {
+                                                                "time": 1.0,
+                                                                "value": 0.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "bladeMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "driversSampleMode": 0,
+                                                "viewingAngleMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "surfaceAngleMappings": {
+                                                    "colorOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": {
+                                                                    "r": 1.0,
+                                                                    "g": 1.0,
+                                                                    "b": 1.0,
+                                                                    "a": 1.0
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "alphaOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "scaleOverValue": {
+                                                        "interpolationType": 0,
+                                                        "controlPoints": [
+                                                            {
+                                                                "time": 0.0,
+                                                                "value": 1.0
+                                                            }
+                                                        ]
+                                                    },
+                                                    "valueFrom": 0.0,
+                                                    "valueTo": 1.0
+                                                },
+                                                "drivers": [
+                                                    {
+                                                        "valueType": 0,
+                                                        "increaseResistance": 0.0,
+                                                        "decreaseResistance": 0.0,
+                                                        "mappings": {
+                                                            "colorOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": {
+                                                                            "r": 1.0,
+                                                                            "g": 1.0,
+                                                                            "b": 1.0,
+                                                                            "a": 1.0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "alphaOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "scaleOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "valueFrom": 0.0,
+                                                            "valueTo": 1.0
+                                                        }
+                                                    },
+                                                    {
+                                                        "valueType": 0,
+                                                        "increaseResistance": 0.0,
+                                                        "decreaseResistance": 0.0,
+                                                        "mappings": {
+                                                            "colorOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": {
+                                                                            "r": 1.0,
+                                                                            "g": 1.0,
+                                                                            "b": 1.0,
+                                                                            "a": 1.0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "alphaOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "scaleOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "valueFrom": 0.0,
+                                                            "valueTo": 1.0
+                                                        }
+                                                    },
+                                                    {
+                                                        "valueType": 0,
+                                                        "increaseResistance": 0.0,
+                                                        "decreaseResistance": 0.0,
+                                                        "mappings": {
+                                                            "colorOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": {
+                                                                            "r": 1.0,
+                                                                            "g": 1.0,
+                                                                            "b": 1.0,
+                                                                            "a": 1.0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "alphaOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "scaleOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "valueFrom": 0.0,
+                                                            "valueTo": 1.0
+                                                        }
+                                                    },
+                                                    {
+                                                        "valueType": 0,
+                                                        "increaseResistance": 0.0,
+                                                        "decreaseResistance": 0.0,
+                                                        "mappings": {
+                                                            "colorOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": {
+                                                                            "r": 1.0,
+                                                                            "g": 1.0,
+                                                                            "b": 1.0,
+                                                                            "a": 1.0
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "alphaOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "scaleOverValue": {
+                                                                "interpolationType": 0,
+                                                                "controlPoints": [
+                                                                    {
+                                                                        "time": 0.0,
+                                                                        "value": 1.0
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "valueFrom": 0.0,
+                                                            "valueTo": 1.0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "TriggerSettings": {
+                                            "type": 0,
+                                            "percentage": 1.0,
+                                            "period": 1.0,
+                                            "burstSpread": 0.4000000059604645
+                                        },
+                                        "SpawnSettings": {
+                                            "MinLifetime": 0.10000000149011612,
+                                            "MaxLifetime": 0.6000000238418579,
+                                            "SpawningPeriod": 0.0,
+                                            "MinBladeOffset": 1.0,
+                                            "MaxBladeOffset": 1.0,
+                                            "MinParticleMass": 0.3499999940395355,
+                                            "MaxParticleMass": 0.6000000238418579,
+                                            "RandomSpawnVelocity": 0.5,
+                                            "BladeInertiaMultiplier": 0.10000000149011612,
+                                            "SizeVariation": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            },
+                                            "SpawnDriver": {
+                                                "valueType": 0,
+                                                "increaseResistance": 3.0,
+                                                "decreaseResistance": 3.0,
+                                                "multiplierOverValue": {
+                                                    "interpolationType": 0,
+                                                    "controlPoints": [
+                                                        {
+                                                            "time": 0.0,
+                                                            "value": 0.0
+                                                        },
+                                                        {
+                                                            "time": 0.18391746282577515,
+                                                            "value": 0.0
+                                                        },
+                                                        {
+                                                            "time": 1.0,
+                                                            "value": 1.0
+                                                        }
+                                                    ]
+                                                },
+                                                "valueFrom": 0.0,
+                                                "valueTo": 1.0
+                                            }
+                                        },
+                                        "PhysicsSettings": {
+                                            "DampingCoefficient": 1.600000023841858,
+                                            "TurbulenceScale": 3.0,
+                                            "TurbulenceTimeScale": 0.5,
+                                            "TurbulencePower": 0.0,
+                                            "Gravity": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "Enabled": true,
+                                        "Name": "Sparks VFX",
+                                        "LocalTransform": {
+                                            "Position": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": -41.5
+                                            },
+                                            "Rotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "Scale": {
+                                                "x": 1.0,
+                                                "y": 1.0,
+                                                "z": 1.0
+                                            }
+                                        },
+                                        "ForceColorOverride": false,
+                                        "ColorOverride": {
+                                            "type": 0,
+                                            "hue": 0.0,
+                                            "saturation": 1.0,
+                                            "value": 1.0,
+                                            "hueShiftPerSecond": 0.0,
+                                            "fakeGlowMultiplier": 1.0,
+                                            "colorSource": 0
+                                        }
+                                    },
+                                    "Children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "BinaryAssets": {
+        "Textures": [],
+        "Geometry": []
+    }
+}
